@@ -1,7 +1,24 @@
 document.addEventListener("DOMContentLoaded", function() {
     console.log("Website loaded successfully!");
 
-    // Smooth scrolling for all navbar links
+    const saveButton = document.getElementById("save-button");
+
+    // Load saved data from localStorage
+    document.querySelectorAll(".editable-section textarea").forEach(textarea => {
+        const id = textarea.id;
+        textarea.value = localStorage.getItem(id) || "";
+    });
+
+    // Save text input to localStorage
+    saveButton.addEventListener("click", function() {
+        document.querySelectorAll(".editable-section textarea").forEach(textarea => {
+            const id = textarea.id;
+            localStorage.setItem(id, textarea.value);
+        });
+        alert("Your data has been saved!");
+    });
+
+    // Smooth scrolling for navigation
     document.querySelectorAll('nav ul li a').forEach(anchor => {
         anchor.addEventListener("click", function(e) {
             e.preventDefault();
@@ -13,13 +30,5 @@ document.addEventListener("DOMContentLoaded", function() {
                 behavior: "smooth"
             });
         });
-    });
-
-    // Handle form submission (Example: Console Log)
-    document.getElementById("contact-form").addEventListener("submit", function(e) {
-        e.preventDefault();
-        console.log("Form submitted!");
-        alert("Thank you! Your message has been sent.");
-        this.reset();
     });
 });
