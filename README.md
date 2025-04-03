@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/ss.jpg" alt="Banner Image" width="100%">
+  <img src="https://raw.githubusercontent.com/alo7lika/my-portfolio/refs/heads/main/images/ss.png" alt="Banner Image" width="100%">
 </p>
 
 <h1 align="center">🌟 Portfolio Website 🌟</h1>
@@ -24,17 +24,12 @@ A **beautiful, responsive, and interactive** portfolio website built with **HTML
 
 ### 📌 **Homepage with Navigation & Banner**  
 <p align="center">
-  <img src="images/banner.jpg" alt="Homepage Preview" width="80%">
-</p>
-
-### 📌 **Editable Sections**  
-<p align="center">
-  <img src="images/editable-section.jpg" alt="Editable Section" width="60%">
+  <img src="images/ss.jpg" alt="Homepage Preview" width="80%">
 </p>
 
 ### 📌 **Social Media Posts Layout**  
 <p align="center">
-  <img src="images/gallery.jpg" alt="Social Media Posts" width="60%">
+  <img src="images/ss1.jpg" alt="Social Media Posts" width="60%">
 </p>
 
 ---
