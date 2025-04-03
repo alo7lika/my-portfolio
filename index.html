@@ -16,98 +16,64 @@
                 <li><a href="#my-value">My Value</a></li>
                 <li><a href="#social-media">Social Media</a></li>
                 <li><a href="#why">Why?</a></li>
-                <li><a href="#projects">Project</a></li>
-                <li><a href="#services">Service</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <img src="images/hero-image.jpg" alt="Portfolio Banner" class="hero-img">
-        <h1>PORTFOLIO</h1>
-        <p>Social Media Content Creator</p>
+    <!-- Sections with Editable Input -->
+    <section id="about" class="editable-section">
+        <h2>About Me</h2>
+        <textarea id="about-text" placeholder="Type here..."></textarea>
     </section>
 
-    <!-- About Me Section -->
-    <section id="about" class="content">
-        <div class="main-content">
-            <h2>About Me</h2>
-            <p>...</p>
-        </div>
+    <section id="my-value" class="editable-section">
+        <h2>My Value</h2>
+        <textarea id="value-text" placeholder="Type here..."></textarea>
     </section>
 
-    <!-- My Value Section -->
-    <section id="my-value" class="content">
-        <div class="main-content">
-            <h2>My Value</h2>
-            <p>...</p>
-        </div>
+    <section id="social-media" class="editable-section">
+        <h2>Social Media</h2>
+        <textarea id="social-text" placeholder="Type here..."></textarea>
     </section>
 
-    <!-- Social Media Section -->
-    <section id="social-media" class="content">
-        <div class="main-content">
-            <h2>Social Media</h2>
-            <p>...</p>
-        </div>
+    <section id="why" class="editable-section">
+        <h2>Why?</h2>
+        <textarea id="why-text" placeholder="Type here..."></textarea>
     </section>
 
-    <!-- Why Section -->
-    <section id="why" class="content">
-        <div class="main-content">
-            <h2>Why?</h2>
-            <p>...</p>
-        </div>
+    <section id="projects" class="editable-section">
+        <h2>Projects</h2>
+        <textarea id="projects-text" placeholder="Type here..."></textarea>
     </section>
 
-    <!-- Project Section -->
-    <section id="projects" class="content">
-        <div class="main-content">
-            <h2>Projects</h2>
-            <p>...</p>
-        </div>
+    <section id="services" class="editable-section">
+        <h2>Services</h2>
+        <textarea id="services-text" placeholder="Type here..."></textarea>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="content">
-        <div class="main-content">
-            <h2>Services</h2>
-            <p>...</p>
-        </div>
+    <section id="contact" class="editable-section">
+        <h2>Contact Me</h2>
+        <textarea id="contact-text" placeholder="Type here..."></textarea>
     </section>
 
-    <!-- Contact Form Section -->
-    <section id="contact" class="content">
-        <div class="main-content">
-            <h2>Contact Me</h2>
-            <form id="contact-form">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="4" required></textarea>
-
-                <button type="submit">Send Message</button>
-            </form>
-        </div>
-    </section>
+    <button id="save-button">Save Data</button>
 
     <!-- Gallery Section -->
     <section class="gallery">
         <h2>Social Media Posts</h2>
         <div class="gallery-container">
-            <img src="images/gallery1.jpg" alt="Post 1">
-            <img src="images/gallery2.jpg" alt="Post 2">
-            <img src="images/gallery3.jpg" alt="Post 3">
+            <div class="gallery-box"><img src="images/gallery1.jpg" alt="Post 1"></div>
+            <div class="gallery-box"><img src="images/gallery2.jpg" alt="Post 2"></div>
+            <div class="gallery-box"><img src="images/gallery3.jpg" alt="Post 3"></div>
+            <div class="gallery-box"><img src="images/gallery4.jpg" alt="Post 4"></div>
+            <div class="gallery-box"><img src="images/gallery5.jpg" alt="Post 5"></div>
+            <div class="gallery-box"><img src="images/gallery6.jpg" alt="Post 6"></div>
         </div>
     </section>
 
-    <!-- Footer -->
     <footer>
         <p>&copy; 2024 Portfolio. All Rights Reserved.</p>
     </footer>
