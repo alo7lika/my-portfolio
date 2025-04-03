@@ -7,30 +7,31 @@ body {
     padding: 0;
     text-align: center;
 }
-/* Hero (Banner) Section */
+
+/* Hero Banner (Updated to Landscape) */
 .hero {
     width: 100%;
-    height: 250px; /* Reduced height */
-    background: url('images/hero-image.jpg') no-repeat center center/cover;
+    height: 300px; /* Reduced size */
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    color: white;
-    text-align: center;
-    position: relative;
+    background: url('images/hero-image.jpg') no-repeat center center/cover;
 }
 
 .hero h1 {
     font-size: 36px;
-    font-weight: bold;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
 }
 
 .hero p {
     font-size: 18px;
-    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+    color: white;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
 }
+
 /* Navigation */
 header {
     background-color: #eae6df;
@@ -123,4 +124,13 @@ textarea {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #eae6df;
+    color: #444;
+    font-size: 14px;
 }
