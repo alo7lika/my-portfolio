@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/hero-image.jpg" alt="Banner Image" width="100%">
+  <img src="images/ss.jpg" alt="Banner Image" width="100%">
 </p>
 
 <h1 align="center">🌟 Portfolio Website 🌟</h1>
